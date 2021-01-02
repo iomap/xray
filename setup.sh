@@ -1,5 +1,4 @@
-cd /home/iomap/kaggle
-
+# this script should be called in 'xray' directory
 
 ## Create Directory Tree ##
 
@@ -7,10 +6,16 @@ mkdir input
 mkdir src
 mkdir models
 mkdir notebooks
-touch README.md
-touch LICENSE
 mkdir input/images
 mkdir datasets
+
+## Install Dependencies ##
+
+#cd src
+#git clone https://github.com/ultralytics/yolov5  # clone repo
+#cd yolov5
+#pip install -qr requirements.txt pycocotools # install dependencies
+#cd ../..
 
 ## Download Datasets ##
 
